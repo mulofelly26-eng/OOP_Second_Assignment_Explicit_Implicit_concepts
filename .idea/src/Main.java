@@ -30,6 +30,10 @@ public class Main {
 
             roundedInterest = (long) Math.round(rawInterest);
             finalAccountToatal = depositAmount + roundedInterest;
+
+            System.out.println("Client Name: " + clientName);
+            System.out.println("Deposit Amount: " + depositAmount);
+            System.out.printf("Rate Percentage: %.2f%%\n", ratePercentage);
         }
     }
 }
