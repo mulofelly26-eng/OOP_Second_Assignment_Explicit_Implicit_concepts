@@ -29,6 +29,7 @@ public class Main {
             double total_amount_to_be_paid = depositAmount + rawInterest;
 
             roundedInterest = (long) Math.round(rawInterest);
+            finalAccountToatal = depositAmount + roundedInterest;
         }
     }
 }
