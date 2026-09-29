@@ -24,10 +24,9 @@ public class Main {
             System.out.println("Enter Interest Rate (%): ");
             ratePercentage = input.nextDouble();
 
-            ratePercentage = input.nextDouble();
-
             interestRate = ratePercentage / 100;
             rawInterest = depositAmount * interestRate;
+            double total_amount_to_be_paid = depositAmount + rawInterest;
         }
     }
 }
