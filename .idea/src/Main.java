@@ -19,6 +19,10 @@ public class Main {
             Scanner input = new Scanner(System.in);
             System.out.println("Enter Client Name: ");
             clientName = input.nextLine();
+            System.out.println("Enter Deposit Amount: ");
+            depositAmount = input.nextLong();
+            System.out.println("Enter Interest Rate (%): ");
+            ratePercentage = input.nextDouble();
         }
     }
 }
