@@ -34,6 +34,12 @@ public class Main {
             System.out.println("Client Name: " + clientName);
             System.out.println("Deposit Amount: " + depositAmount);
             System.out.printf("Rate Percentage: %.2f%%\n", ratePercentage);
+            System.out.println("raw Interest: " + rawInterest);
+            System.out.println("Total Amount to be Paid: " + total_amount_to_be_paid);
+            System.out.println("----------------------------");
+            System.out.println("Rounded Interest: " + roundedInterest);
+            System.out.println("Final Account Total: " + finalAccountToatal);
+            input.close();
         }
     }
 }
