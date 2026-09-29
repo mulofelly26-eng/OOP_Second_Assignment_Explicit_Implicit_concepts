@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 public class Main {
     public static void main(String args[]) {
         SavingCalculator Client_1 = new SavingCalculator();
@@ -16,7 +16,13 @@ public class Main {
         public SavingCalculator() {
         }
         public void calculateInterest(){
-            // logic added in the next branches
+            Scanner input = new Scanner(System.in);
+            System.out.println("Enter Client Name: ");
+            clientName = input.nextLine();
+            System.out.println("Enter Deposit Amount: ");
+            depositAmount = input.nextLong();
+            System.out.println("Enter Interest Rate (%): ");
+            ratePercentage = input.nextDouble();
         }
     }
 }
