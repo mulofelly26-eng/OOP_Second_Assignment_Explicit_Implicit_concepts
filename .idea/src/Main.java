@@ -1,6 +1,22 @@
 
 public class Main {
     public static void main(String args[]) {
+        SavingCalculator Client_1 = new SavingCalculator();
+        Client_1.calculateInterest();
+    }
+    public static class SavingCalculator{
+        private String clientName;
+        private long depositAmount;
+        private double ratePercentage;
+        private double interestRate;
+        private double rawInterest;
+        private long roundedInterest;
+        private long finalAccountToatal;
 
+        public SavingCalculator() {
+        }
+        public void calculateInterest(){
+            // logic added in the next branches
+        }
     }
 }
